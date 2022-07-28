@@ -1,0 +1,160 @@
+body{
+    font-family:  'Work Sans', sans-serif;
+}
+
+#title{
+    background-color: black;
+}
+
+.title-img{
+    position: relative;
+    bottom: 87%;
+    left: 10.3%;
+}
+.title-headings{
+    font-family: 'Montaga', serif;
+    color:azure;
+    line-height: 4rem;
+    font-size: 3.3rem;
+    padding-top: 4rem;
+    /* font-weight: bold; */
+    /* font-style: italic; */
+}
+.container-fluid{
+    padding: 3% 8%;
+}
+.title-para{
+    padding: 8.5% 0 0;
+    color: rgb(106, 106, 106);
+    font-size: large;
+}
+
+/* button  */
+.btn-secondary:hover{
+    background-color: rgb(46, 53, 53);
+}
+
+.Download-button{
+    margin: 3% 3.5% 3% 0 ;
+}
+
+/* navigation bar */
+
+.navbar{
+    padding-bottom: 2rem;
+    padding-left: 0;
+}
+
+.navbar-brand{
+    font-size: 2.7rem;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.nav-item{
+    padding-left: 1.2rem;
+}
+.nav-link{
+    font-size: 1.1rem;
+}
+
+/* features */
+
+#features{
+    padding: 7% 14%;
+    background-color:mintcream;
+}
+.box{
+    padding: 5%;
+    text-align: center;
+}
+.feature-para{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: rgb(37, 60, 151);
+}
+.feature-heading{
+    font-size: 1.7rem;
+    font-weight:900;
+}
+.icon{
+    font-size: 4.5rem;
+    padding-bottom: 1.5rem;
+    color: rgb(9, 9, 81);
+}
+.icon:hover{
+    color: rgb(26, 59, 147);
+}
+
+/* testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: rgb(4, 4, 46);
+    color: azure;
+}
+
+h2 {
+    font-size: xx-large;
+    font-weight: bolder;
+    line-height: 1.7;
+    padding: 0 5%;
+}
+
+.testi-img{
+    width: 20%;
+    border-radius: 100%;
+    margin: 30px;
+}
+
+.carousel-item{
+    padding: 7% 14%;
+}
+
+/* payment-options */
+
+#payment-options{
+    padding: 5%;
+    background-color: mintcream;
+}
+.pay-col{
+    text-align: center;
+    margin: 2% 0 2% 0;
+}
+
+@media (max-width: 1130px) {
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: relative;
+        left:0;
+    }
+}
+
+/*Call to Action */
+
+#cta{
+    padding: 7% 14%;
+    background-color: black;
+    color: azure;
+    text-align: center;
+}
+
+.cta-heading{
+    font-size: 250%; ;
+    font-weight:bolder;
+    line-height: 150%;
+}
+
+/* footer */
+
+#footer{
+    padding:  7% 14% ;
+    text-align: center;
+    background-color: mintcream;
+}
+.social-icon{
+    padding: 0.5%;
+    font-size:x-large;
+    margin-bottom: 1.5%;
+}
