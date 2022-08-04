@@ -1,6 +1,9 @@
 body{
     font-family:  'Work Sans', sans-serif;
 }
+p{
+    margin-bottom: 0;
+}
 
 #title{
     background-color: black;
@@ -71,10 +74,15 @@ body{
     font-size: 1.2rem;
     font-weight: lighter;
     color: rgb(37, 60, 151);
+    padding-bottom: 25px;
+    /* display: inline; */
+    /* background-color: #d2daeb; */
 }
 .feature-heading{
     font-size: 1.7rem;
     font-weight:900;
+    /* display: inline; */
+    /* background-color: #d2daeb; */
 }
 .icon{
     font-size: 4.5rem;
@@ -94,7 +102,7 @@ body{
 }
 
 h2 {
-    font-size: xx-large;
+    font-size: 200%;
     font-weight: bolder;
     line-height: 1.7;
     padding: 0 5%;
@@ -121,6 +129,36 @@ h2 {
     margin: 2% 0 2% 0;
 }
 
+.card-header:first-child{
+    border-radius: 30px 30px 0 0;
+}
+.card{
+    border: 0;
+    font: bold;
+    font-size: large;
+}
+.card-header{ 
+    border-radius: 100px;
+    padding-top: 30px;
+    font-size: 350%;
+    background-color: #272343;
+    color: #E3F6F5;
+    height: 150px;
+}
+.card-body{
+    height: 5%;
+    padding: 0.7rem;
+    border-radius: 0 0 30px 30px;
+    background-color: #E3F6F5;
+}
+
+.card-header:hover{ 
+    background-color: rgb(12, 30, 78);
+    color: #929AAB;
+}
+
+
+
 @media (max-width: 1130px) {
     #title{
         text-align: center;
@@ -135,13 +173,13 @@ h2 {
 
 #cta{
     padding: 7% 14%;
-    background-color: black;
+    background-color: rgb(4, 4, 46);
     color: azure;
     text-align: center;
 }
 
 .cta-heading{
-    font-size: 250%; ;
+    font-size: 200%; ;
     font-weight:bolder;
     line-height: 150%;
 }
